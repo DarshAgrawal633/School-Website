@@ -32,7 +32,6 @@ body {
     margin: 0%;
     padding: 0%;
     width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: end;
@@ -780,4 +779,16 @@ div.gallery{
 .gallery img{
     width: 312px;
     border: 1px solid black;
+}
+div.testimonials{
+    background-color:rgb(240, 255, 153);
+    width: 90vw;
+    border-radius: 10px;
+    margin:30px;
+}
+p.testimonials {
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: large;
+    line-height: 40px;
 }
