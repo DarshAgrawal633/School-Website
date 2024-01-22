@@ -3,7 +3,6 @@
     --primaryColor: #f9ca13;
     --mainBlack: #2b2d42;
     --mainBlackTransparent: #2b2d4216;
-    /* --blackAlternate: #151515; */
     --mainWhite: #edf2f4;
     --accentBlue: #073b4c;
     --accentGreen: #02c39a;
@@ -12,19 +11,7 @@
     --accentBlueLight: #4cc9f0;
     --accentBlueDark: #1e6091;
     --textWhite: #ffffff;
-    /* --darkTop: #023047; */
-    /* --darkTopTransparent: #02304750; */
-    /* --infoColor: #f6f9fc; */
-    /* --infoColorAlternate: #f6f9fc; */
-    /* --borderColor: #eef0f2; */
-    /* --mainHeading: 'Nunito', sans-serif; */
-    --rato: "Open Sans", "Odoo Unicode Support Noto", sans-serif;
-    /* --blogFont: 'PT Sans', sans-serif; */
-    ;
-    /* --otherfont: 'Open Sans', sans-serif; */
-    /* --montserrat: 'Montserrat', sans-serif; */
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0%;
@@ -38,65 +25,8 @@ body {
 
 .headerContainer {
     width: 100%;
-
     display: flex;
     justify-content: center;
-}
-
-.mobileMenuContainer {
-    width: 100%;
-    height: fit-content;
-
-    top: 12vh;
-
-    background-color: #151515;
-
-    position: absolute;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    padding: 3em 0;
-
-    opacity: 100% !important;
-}
-
-.hidden {
-    display: none;
-    opacity: 0;
-}
-
-.mobileNavList {
-    margin: 0%;
-    padding: 0%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.mobileNavList>li {
-    list-style-type: none;
-}
-
-.mobileNavList li a {
-    text-decoration: none;
-    color: var(--infoColorAlternate);
-    padding: 1.2em;
-
-    border-radius: 12px;
-}
-
-.mobileNavList li a:hover {
-
-    background-color: var(--accentOrange);
-}
-
-.mobileNavList>li:not(:nth-child(4)) {
-    margin-right: 15px;
 }
 .innerHeaderContainer {
     width: 95%;
@@ -572,7 +502,6 @@ body {
     margin-bottom: 15px;
     border: none;
     border-radius: 4px;
-
     background-color:  #eef0f2;
 }
 
@@ -588,22 +517,13 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-
-.form-submit:hover {
-    background-color: var(--accentOrange);
-}
-
 .contactKoMaps {
     width: 90%;
     height: 200px;
 }
-
-/* learn more page css  */
-
 .underConstructionContainer {
     width: 100%;
     height: fit-content;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -613,7 +533,6 @@ body {
 .innerUnderConstructionContainer {
     width: 83%;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
